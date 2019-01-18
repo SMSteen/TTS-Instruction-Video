@@ -1,0 +1,150 @@
+/* basic normalize */
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 5px 10px 15px 10px;
+}
+button {
+  background-color: #254274;
+  border-color: #182c4e;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px #b4c7e7;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #182c4e;
+  font-size: 1.1em;
+}
+
+/* navigation area - logo */
+img[alt='logo'] {
+  margin-top: 0;
+  max-width: 10%;
+  max-height: 75px;
+  cursor: pointer;
+}
+
+/* navigation area - search */
+.search-area {
+  display: inline-block;
+  padding: 0 10%;
+  width: 55%;
+  margin-top: 30px;
+  vertical-align: top;
+}
+input[type='search'] {
+  margin-top: 1px;
+  padding: 6px;
+  display: inline-block;
+  width: 70%;
+}
+.search-area button {
+  margin-top: 0;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+img[alt='search'] {
+  width: 20px;
+  vertical-align: top;
+  margin-top: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+/* navigation area - cart */
+.cart-area {
+  display: inline-block;
+  width: 15%;
+  margin-top: 30px;
+  vertical-align: top;
+}
+img[alt='cart'] {
+  width: 25px;
+  margin-left: 5px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+/* navigation area - menu */
+.navigation {
+  border-bottom: 1px solid #252525;
+}
+.navigation ul {
+  background: #fbfaf9;
+  padding: 15px 0;
+}
+.navigation li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.navigation li:nth-child(even) {
+  border-left: 1px solid #252525;
+  border-right: 1px solid #252525;
+}
+.navigation li:last-child {
+  border-left: none;
+  border-right: none;
+}
+.navigation li:hover {
+  background-color: #b4c7e7;
+}
+
+/* products display area */
+.products {
+  margin-top: 15px;
+}
+.product-card {
+  display: inline-block;
+  width: 22%;
+  padding: 10px;
+  border: 1px solid #808080;
+  margin: 5px;
+  background-color: #fbfaf9;
+  text-align: center;
+}
+.product-card:hover {
+  border: 3px double #254274;
+  box-shadow: 2px 2px 2px #b4c7e7;
+}
+.product-card img {
+  width: 50%;
+  max-height: 125px;
+  max-width: 125px;
+  margin: 10px auto;
+}
+.brand {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.desc {
+  font-style: italic;
+  padding: 5px 0px;
+}
+.price {
+  color: #254274;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.footer {
+  margin-top: 10px;
+}
+footer {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: bottom;
+}
+img[src='favicon.ico'] {
+  width: 40px;
+  margin-right: 5px;
+}

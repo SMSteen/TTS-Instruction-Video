@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .search-area button {
+    display: none;
+  }
+  img[alt='search'] {
+    display: inline;
+  }
+  .search-area {
+    padding: 0 0 0 40px;
+    /* padding-left: 40px */
+    width: 50%;
+    margin-top: 0;
+  }
+  .cart-area a[href='#register'],
+  span {
+    display: none;
+  }
+  .cart-area a[href='#login'] {
+    font-size: 1em;
+  }
+  .cart-area {
+    width: 25%;
+    margin-top: 0;
+    float: right;
+  }
+}
+@media (max-width: 461px) {
+  .product-card {
+    width: 40%;
+  }
+}
